@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for repo in $(cat ./images.txt); 
+for image in $(cat ./images.txt); 
 do 
-  docker pull $repo; 
+  docker pull $image; 
 done
